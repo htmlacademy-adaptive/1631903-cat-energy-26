@@ -27,8 +27,6 @@
   width: 280px;
   padding: 0 20px;
   margin: 0 auto;
-  outline: 2px solid #000000;
-  outline-offset: -2px;
 }
 @media (min-width: 768px) {
   .container {
@@ -44,7 +42,7 @@
 }
 
 @media (min-width: 1440px) {
-  .main-header::before {
+  .main-header--index::before {
     content: "";
     position: absolute;
     width: 50%;
@@ -55,18 +53,19 @@
   }
 }
 
-.main-header__wrapper--index {
+.main-header__wrapper {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media (min-width: 768px) {
-  .main-header__wrapper--index {
+  .main-header__wrapper {
     flex-direction: row;
     justify-content: space-between;
   }
 }
+
 @media (min-width: 1440px) {
   .main-header__wrapper--index::before {
     content: "";
@@ -75,7 +74,7 @@
     height: 694px;
     top: 0;
     right: 0;
-    background-image: url("../../img/big-cat-licks.jpg");
+    background-image: url("../img/big-cat-licks.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -2;
@@ -150,7 +149,7 @@
   position: absolute;
   width: 100%;
   min-height: 302px;
-  background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../img/cat-licks.jpg");
+  background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/cat-licks.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
