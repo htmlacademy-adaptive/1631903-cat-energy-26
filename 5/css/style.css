@@ -635,7 +635,7 @@
 
 .selection__catalog-button {
   padding-right: 39px;
-  background-image: url("../../img/arrow-icon.svg");
+  background-image: url("../img/arrow-icon.svg");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -645,7 +645,7 @@
   }
 }
 .selection__catalog-button:hover {
-  background-image: url("../../img/big-arrow-icon.svg");
+  background-image: url("../img/big-arrow-icon.svg");
 }
 .selection__catalog-button:active {
   opacity: 0.3;
@@ -728,28 +728,28 @@
 .features__item--useful::before {
   content: "";
   position: absolute;
-  background-image: url("../../img/leaf-icon.svg");
+  background-image: url("../img/leaf-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .features__item--simplicity::before {
   content: "";
   position: absolute;
-  background-image: url("../../img/water-icon.svg");
+  background-image: url("../img/water-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .features__item--meal::before {
   content: "";
   position: absolute;
-  background-image: url("../../img/eat-icon.svg");
+  background-image: url("../img/eat-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .features__item--time::before {
   content: "";
   position: absolute;
-  background-image: url("../../img/time-icon.svg");
+  background-image: url("../img/time-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
